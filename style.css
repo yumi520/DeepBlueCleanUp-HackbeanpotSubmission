@@ -1,0 +1,171 @@
+body {
+    overflow: hidden;
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+}
+.wave {
+    display: block;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background: rgb(103, 175, 246);
+    transform: scale(1, 3); 
+}
+
+.wave:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+    width: 100%;
+    height: 300px;
+    background-color: blanchedalmond;
+    right: -25%;
+    top: 20px
+}
+
+.wave:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(184, 216, 242);
+    left: -25%;
+    top: -240px;
+    clip-path: ellipse(100% 15% at -15% 100%);
+}
+
+.towel { 
+    width:400px;
+    height:300px;
+    background-image:url(assets/towel.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom: 100px;
+    right: 550px;
+}
+
+.gametitle { 
+    color: rgb(217, 129, 51);
+    position: absolute;
+    font-size: 65px;
+    bottom: 450px;
+    right: 480px;
+}
+
+.ending-blurb {
+    font-weight: 700;
+}
+
+.gametitle-description { 
+    color: rgb(217, 129, 51);
+    position: absolute;
+    bottom: 440px;
+    right: 570px;
+    font-size: 23px;;
+}
+
+.facts { 
+    color: rgb(217, 129, 51);
+    position: absolute;
+    font-size: 20px;
+    bottom: 400px;
+    right: 400px;
+    font-size: 23px;;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    color: white;
+    position: absolute;
+    bottom: 175px;
+    right: 650px;
+    border: none;
+    background: none;
+    font-size: 50px;
+}
+
+.button-clean {
+    width: 200px;
+    height: 100px;
+    color: white;
+    position: absolute;
+    bottom: 165px;
+    right: 660px;
+    border: none;
+    background: none;
+    font-size: 50px;
+}
+
+.sunglasses {
+    width: 110px;
+    height: 70px;
+    background-image: url(assets/sunglasses.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom: 70px;
+    right: 855px;
+}
+
+.lifebuoy {
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/lifebuoy.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom:500px;
+    right: 970px;
+}
+
+.umbrella {
+    width: 400px;
+    height: 400px;
+    background-image: url(assets/umbrella.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom:40px;
+    right: 315px;
+}
+
+.shell {
+    width: 184px;
+    height: 216px;
+    background-image: url(assets/shell.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom:612px;
+    right: 253px;
+}
+
+.orangeflower {
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/orangeflower.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom: 100px;
+    right: 1275px;
+}
+
+.greenflower {
+    width: 200px;
+    height: 224px;
+    background-image: url(assets/greenflower.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: absolute;
+    bottom: 500px;
+    right: 46px;
+}
