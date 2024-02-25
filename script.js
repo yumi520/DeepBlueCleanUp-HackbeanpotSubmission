@@ -72,7 +72,7 @@ const strawtextbox = document.querySelector('.straw-text');
 const sixpackringtextbox = document.querySelector('.sixpackring-text');
 const metaltextbox = document.querySelector('.metal-text');
 const plasticwaterbottletextbox = document.querySelector('.plasticwaterbottle-text');
-
+const instructionstextbox = document.querySelector('.instructions-text');
 
 document.querySelector('.cigarettes').addEventListener('dragstart', cigarettesfact);
 document.querySelector('.plasticbag').addEventListener('dragstart', plasticbagfact);
@@ -92,6 +92,7 @@ document.querySelector('.plasticwaterbottle').addEventListener('dragstart', plas
 
 function cigarettesfact(){
     cigarettestextbox.classList.toggle('hidden')
+    instructionstextbox.classList.add('hidden')
     plasticbagtextbox.classList.add('hidden')
     strawtextbox.classList.add('hidden')
     sixpackringtextbox.classList.add('hidden')

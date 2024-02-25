@@ -50,7 +50,7 @@ img {
     height: 150px;
 }
 
-.cigarettes-text, .plasticbag-text, .straw-text, .sixpackring-text, .metal-text, .plasticwaterbottle-text {
+.cigarettes-text, .plasticbag-text, .straw-text, .sixpackring-text, .metal-text, .plasticwaterbottle-text, .instructions-text  {
     max-width: 700px;
     min-width: 400px;
     margin-left: 50px;
