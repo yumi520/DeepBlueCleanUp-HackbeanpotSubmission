@@ -102,6 +102,7 @@ function cigarettesfact(){
 
 function plasticbagfact(){
     cigarettestextbox.classList.add('hidden')
+    instructionstextbox.classList.add('hidden')
     plasticbagtextbox.classList.toggle('hidden')
     strawtextbox.classList.add('hidden')
     sixpackringtextbox.classList.add('hidden')
@@ -110,6 +111,7 @@ function plasticbagfact(){
 }
 function strawfact(){
     cigarettestextbox.classList.add('hidden')
+    instructionstextbox.classList.add('hidden')
     plasticbagtextbox.classList.add('hidden')
     strawtextbox.classList.toggle('hidden')
     sixpackringtextbox.classList.add('hidden')
@@ -119,6 +121,7 @@ function strawfact(){
 
 function sixpackringfact(){
     cigarettestextbox.classList.add('hidden')
+    instructionstextbox.classList.add('hidden')
     plasticbagtextbox.classList.add('hidden')
     strawtextbox.classList.add('hidden')
     sixpackringtextbox.classList.toggle('hidden')
@@ -127,6 +130,7 @@ function sixpackringfact(){
 }
 function metalfact(){
     cigarettestextbox.classList.add('hidden')
+    instructionstextbox.classList.add('hidden')
     plasticbagtextbox.classList.add('hidden')
     strawtextbox.classList.add('hidden')
     sixpackringtextbox.classList.add('hidden')
@@ -136,6 +140,7 @@ function metalfact(){
 
 function plasticwaterbottlefact(){
     cigarettestextbox.classList.add('hidden')
+    instructionstextbox.classList.add('hidden')
     plasticbagtextbox.classList.add('hidden')
     strawtextbox.classList.add('hidden')
     sixpackringtextbox.classList.add('hidden')
