@@ -2,6 +2,8 @@
 
 An educational game where users can learn about what types of waste end up in the ocean.
 
+https://deepbluecleanup.netlify.app
+
 ## Description
 
 Embark on an exciting and educational journey with "Deep Blue Clean up," 
@@ -16,7 +18,7 @@ waste management and become a recycling hero!
 <img width="546" alt="Screenshot of third page" src="assets/cleanup ss3.png">
 
 ## Video
-
+* [Demo Video](https://youtu.be/MB9mP5MOn6w?si=YZLzY7H5Z0JAARRJ)
 
 ## Authors
 
